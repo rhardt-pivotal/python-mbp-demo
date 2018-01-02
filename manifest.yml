@@ -1,0 +1,6 @@
+---
+applications:
+- name: python-mbp-demo
+  buildpack: https://github.com/cloudfoundry/multi-buildpack
+  memory: 1G
+  path: target/python-mbp-demo-0.0.1-SNAPSHOT.jar
